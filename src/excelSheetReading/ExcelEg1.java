@@ -34,6 +34,7 @@ public class ExcelEg1 {
 		// how to read boolean value
 		 boolean myvalue = WorkbookFactory.create(myfile).getSheet("Sheet1").getRow(3).getCell(1).getBooleanCellValue();
 		System.out.println(myvalue);
+		System.out.println("my new changed");
 	}
 
 }
